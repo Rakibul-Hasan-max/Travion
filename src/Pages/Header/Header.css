@@ -1,0 +1,31 @@
+.naved {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+.logoname {
+    width: 250px;
+    height: 100px;
+}
+
+.naved nav {
+    line-height: 40px;
+    padding: 5px;
+    border: 0;
+}
+
+.naved nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    margin-right: 20px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.naved nav a:hover {
+    background-color: #8dd5ff;
+}
