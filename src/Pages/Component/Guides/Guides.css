@@ -1,0 +1,12 @@
+.guides-man{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    gap: 15px;
+}
+.guides-man img{
+    width: 250px;
+    height: 250px;
+}

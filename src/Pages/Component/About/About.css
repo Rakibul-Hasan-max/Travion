@@ -1,0 +1,10 @@
+.about-sec{
+    display: flex;
+    gap: 100px;
+    padding: 100px 200px;
+    background-color: aliceblue;
+}
+.about-sec img{
+    width: 400px;
+    height: 450px;
+}
