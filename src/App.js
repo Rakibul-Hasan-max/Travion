@@ -5,10 +5,10 @@ import Header from './Pages/Header/Header';
 import Home from './Pages/Home/Home';
 import Login from './Pages/Login/Login';
 import Footer from './Pages/Footer/Footer';
+import AddService from './Pages/AddService/AddService';
 // import Booking from './Pages/Booking/Booking/Booking';
 // import AuthProvider from './contexts/AuthProvider';
 // import PrivateRoute from './Pages/Login/PrivateRoute/PrivateRoute';
-// import AddService from './Pages/AddService/AddService';
 // import ManageServices from './Pages/ManageServices/ManageServices';
 
 
@@ -30,11 +30,11 @@ function App() {
             </Route>
             {/* <PrivateRoute path="/booking/:serviceId">
               <Booking></Booking>
-            </PrivateRoute>
+            </PrivateRoute> */}
             <Route path="/addService">
               <AddService></AddService>
             </Route>
-            <Route path="/manageServices">
+            {/* <Route path="/manageServices">
               <ManageServices></ManageServices>
             </Route> */}
             <Route path="*">
