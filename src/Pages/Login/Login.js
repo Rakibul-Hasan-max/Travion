@@ -1,12 +1,16 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
 import './Login.css';
 import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
 import useAuth from '../../Hooks/useAuth';
+import { useHistory, useLocation } from 'react-router';
 
 
 const Login = () => {
     const {signInUsingGoogle} = useAuth();
+
+    const location = useLocation();
+    const history = useHistory();
+    const redirect_uri = location.state?.from || '/home';
 
     const[email, setEmail] = useState('');
     const[password, setPassword] = useState('');
@@ -35,6 +39,16 @@ const Login = () => {
     })
     }
 
+    const handleGoogleLogin = () => {
+        signInUsingGoogle()
+        .then((result) => {
+            history.push(redirect_uri);
+        })
+        .catch((error) => {
+            setError(error.message);
+        })
+    }
+
     return (
         <div>
             <div className=" container body">
@@ -60,7 +74,7 @@ const Login = () => {
                             </div>
                         </div>
                         <div className="from-group mt-5">
-                            <button onClick={signInUsingGoogle} className="btn btn-primary" >Log in with Google</button>
+                            <button onClick={handleGoogleLogin} className="btn btn-primary" >Log in with Google</button>
                         </div>
                     </div>
                 </div>
