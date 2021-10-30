@@ -7,7 +7,7 @@ import Login from './Pages/Login/Login';
 import Footer from './Pages/Footer/Footer';
 import AddService from './Pages/AddService/AddService';
 import Booking from './Pages/Booking/Booking';
-// import AuthProvider from './contexts/AuthProvider';
+import AuthProvider from './Context/AuthProvider';
 // import PrivateRoute from './Pages/Login/PrivateRoute/PrivateRoute';
 // import ManageServices from './Pages/ManageServices/ManageServices';
 
@@ -15,7 +15,7 @@ import Booking from './Pages/Booking/Booking';
 function App() {
   return (
     <div className="App">
-      {/* <AuthProvider> */}
+      <AuthProvider>
         <Router>
           <Header></Header>
           <Switch>
@@ -46,7 +46,7 @@ function App() {
           </Switch>
           <Footer></Footer>
         </Router>
-      {/* </AuthProvider> */}
+      </AuthProvider>
     </div>
   );
 }
