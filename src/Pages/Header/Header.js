@@ -19,6 +19,7 @@ const Header = () => {
                     <Link to ="/addService">AddService</Link>
                     <Link to ="/manageServices">ManageServices</Link>
                     <Link to ="/login">Login</Link>
+                    <span>{user.displayName} </span>
                     {user?.email && <button onClick={logout} className="btn btn-success" >Logout</button>}
                 </nav>
             </div>
