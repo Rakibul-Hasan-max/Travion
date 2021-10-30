@@ -15,9 +15,9 @@ const Header = () => {
                 </div>
                 <nav>
                     <Link to ="/home">Home</Link>
-                    <Link to ="/departments">Booking</Link>
+                    <Link to ="/booking/:serviceId">Booking</Link>
                     <Link to ="/addService">AddService</Link>
-                    <Link to ="/blog">ManageServices</Link>
+                    <Link to ="/manageServices">ManageServices</Link>
                     <Link to ="/login">Login</Link>
                     {user?.email && <button onClick={logout} className="btn btn-success" >Logout</button>}
                 </nav>

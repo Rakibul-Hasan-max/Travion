@@ -8,8 +8,8 @@ import Footer from './Pages/Footer/Footer';
 import AddService from './Pages/AddService/AddService';
 import Booking from './Pages/Booking/Booking';
 import AuthProvider from './Context/AuthProvider';
-// import PrivateRoute from './Pages/Login/PrivateRoute/PrivateRoute';
-// import ManageServices from './Pages/ManageServices/ManageServices';
+import ManageServices from './Pages/ManageServices/ManageServices';
+import PrivateRoute from './PrivateRoute/PrivateRoute';
 
 
 function App() {
@@ -28,18 +28,15 @@ function App() {
             <Route path="/login">
               <Login></Login>
             </Route>
-            {/* <PrivateRoute path="/booking/:serviceId">
+            <PrivateRoute path="/booking/:serviceId">
               <Booking></Booking>
-            </PrivateRoute> */}
-            <Route path="/booking/:serviceId">
-              <Booking></Booking>
-            </Route>
+            </PrivateRoute>
             <Route path="/addService">
               <AddService></AddService>
             </Route>
-            {/* <Route path="/manageServices">
+            <Route path="/manageServices">
               <ManageServices></ManageServices>
-            </Route> */}
+            </Route>
             <Route path="*">
               <NotFound></NotFound>
             </Route>
