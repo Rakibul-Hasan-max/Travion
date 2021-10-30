@@ -15,11 +15,10 @@ const Header = () => {
                 </div>
                 <nav>
                     <Link to ="/home">Home</Link>
-                    <Link to ="/departments">My Orders</Link>
-                    <Link to ="/doctors">Manage All Orders</Link>
-                    <Link to ="/blog">Add A New Service</Link>
+                    <Link to ="/departments">Booking</Link>
+                    <Link to ="/doctors">AddService</Link>
+                    <Link to ="/blog">ManageServices</Link>
                     <Link to ="/login">Login</Link>
-                    <Link to="/register">Register</Link>
                     {/* {user?.email && <button onClick={logout} className="btn btn-success" >Logout</button>} */}
                 </nav>
             </div>
