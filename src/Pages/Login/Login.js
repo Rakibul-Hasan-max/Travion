@@ -57,10 +57,10 @@ const Login = () => {
                             <div>
                             <h2>Please Login</h2>
                             </div>
-                            <div className="form-group">
+                            <div className="form-group mt-4">
                                 <input onBlur={handleEmailChange} type="text" required className="form-control" placeholder="Email" />
                             </div>
-                            <div className="form-group">
+                            <div className="form-group mt-3">
                                 <input onBlur={handlePasswordChange} type="password" required className="form-control" placeholder="Password" />
                             </div>
                             <div className="form-group">
@@ -68,12 +68,12 @@ const Login = () => {
                                 <label htmlFor="" className="text-danger ms-2">Forgot your password?</label>
                             </div>
                             <div className="text-danger">{error}</div>
-                            <div className="from-group mt-3">                                
-                                <button onClick={handleRegistration} className="btn btn-success" type="submit">Login</button>
+                            <div className="from-group mt-4">                                
+                                <button onClick={handleRegistration} className="btn-in" type="submit">Login</button>
                             </div>
                         </div>
-                        <div className="from-group mt-5">
-                            <button onClick={handleGoogleLogin} className="btn btn-primary" >Log in with Google</button>
+                        <div className="from-group mt-3">
+                            <button onClick={handleGoogleLogin} className="btn-in-g" >Log in with Google</button>
                         </div>
                     </div>
                 </div>
