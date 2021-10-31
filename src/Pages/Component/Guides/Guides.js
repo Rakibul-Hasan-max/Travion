@@ -6,8 +6,8 @@ const Guides = () => {
     return (
         <div>
             <div>
-                <h2>Meet The Guides</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim ad minim</p>
+                <h2 className="text-primary">Meet The Guides</h2>
+                <p className="text-success">Professional guides and incredible people, they turn good trips into great ones!</p>
             </div>
             <div className="guides-man">
                 <img src="https://s3.envato.com/files/323368414/envato11196.jpg" alt="" />
