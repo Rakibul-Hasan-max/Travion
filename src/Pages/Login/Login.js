@@ -63,7 +63,7 @@ const Login = () => {
                             <div className="form-group mt-3">
                                 <input onBlur={handlePasswordChange} type="password" required className="form-control" placeholder="Password" />
                             </div>
-                            <div className="form-group">
+                            <div className="form-group warn">
                                 <input className="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate"></input>
                                 <label htmlFor="" className="text-danger ms-2">Forgot your password?</label>
                             </div>

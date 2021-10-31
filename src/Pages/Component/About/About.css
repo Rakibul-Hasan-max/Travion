@@ -8,3 +8,10 @@
     width: 400px;
     height: 450px;
 }
+.about-text{
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+}
+.gap{
+    margin-top: 20px;
+}
