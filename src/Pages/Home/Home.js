@@ -16,7 +16,7 @@ const Home = () => {
                     <div class="input-group tab">
                         <input type="text" class="form-control" placeholder="Search your destination" aria-label="Search your destination" aria-describedby="basic-addon2" />
                         <div class="input-group-append">
-                            <button class="btn btn-outline-info" type="button">Button</button>
+                            <button class="btn btn-success" type="button">Search</button>
                         </div>
                     </div>
                 </div>

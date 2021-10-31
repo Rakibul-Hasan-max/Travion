@@ -19,7 +19,8 @@ const AddService = () => {
 
     return (
         <div className="add-service">
-            <h1>Add a Service</h1>
+            <h1 className="text-primary">Add a Service</h1>
+            <p>Discover your next great adventure, become an explorer to get started!</p>
             <form onSubmit={handleSubmit(onSubmit)}>
                 <input {...register("name", { required: true, maxLength: 100 })} placeholder="name" />
                 <textarea {...register("description")} placeholder="description" />
