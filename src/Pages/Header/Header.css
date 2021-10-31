@@ -3,6 +3,7 @@
     justify-content: center;
     align-items: center;
     gap: 200px;
+    background-color: aliceblue;
 }
 
 .logoname {
@@ -27,5 +28,5 @@
 }
 
 .naved nav a:hover {
-    background-color: #8dd5ff;
+    background-color: greenyellow;
 }

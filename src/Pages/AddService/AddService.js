@@ -24,7 +24,6 @@ const AddService = () => {
                 <input {...register("name", { required: true, maxLength: 100 })} placeholder="name" />
                 <textarea {...register("description")} placeholder="description" />
                 <input {...register("img")} placeholder="image url" />
-                <input type="file" name="" id="" />
                 <input className="btn btn-success" type="submit" />
             </form>
         </div>
