@@ -4,22 +4,24 @@ Travion is a full-stack single-page travel agency service provider web app.
 
 Project Description:
 • Login system with firebase, private routes and dashboard for users.
-• Users can order services, monitor their orderlist and give a review, delete or update the review.
+• Users can booking services, monitor their booklist and give a review, delete or update the review and order.
 • Admin can add services, update and delete services.
-• Admin can add new admins and can change the status of orderlist.
-• 
+• Users can see our guides.
+• Responsive dynamic website.
 
 
 Live site: https://travion.web.app/
-Code link: 
+Client side Code link: https://github.com/programming-hero-web-course1/tourism-or-delivery-website-client-side-Rakibul-Hasan-max
+
 Server site: https://mighty-hamlet-29284.herokuapp.com/
-Code link: 
+Server side Code link: https://github.com/programming-hero-web-course1/tourism-or-delivery-website-server-side-Rakibul-Hasan-max
 
 
 Front-end Technology:
 • React
 • React-Router-Dom
 • React-Bootstrap
+• React Hook Form
 • CSS3
 • Firebase Authentication
 
