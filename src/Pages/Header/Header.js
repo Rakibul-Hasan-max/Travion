@@ -2,11 +2,11 @@ import React from 'react';
 import './Header.css';
 import logo from '../../Images/logo.png'
 import { Link } from 'react-router-dom';
-import useFirebase from '../../Hooks/useFirebase';
+import useAuth from '../../Hooks/useAuth';
 
 
 const Header = () => {
-    const {user, logout} = useFirebase();
+    const {user, logout} = useAuth();
     return (
         <div>
             <div className="naved">
@@ -15,7 +15,7 @@ const Header = () => {
                 </div>
                 <nav>
                     <Link to ="/home">Home</Link>
-                    <Link to ="/booking/:serviceId">Booking</Link>
+                    <Link to ="/myBooking">MyBooking</Link>
                     <Link to ="/addService">AddService</Link>
                     <Link to ="/manageServices">ManageServices</Link>
                     <Link to ="/login">Login</Link>
