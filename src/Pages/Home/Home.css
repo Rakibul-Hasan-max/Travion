@@ -6,15 +6,35 @@ img{
     position: absolute;
     bottom: 0;
     background: rgb(0, 0, 0);
-    /* Fallback color */
     background: rgba(0, 0, 0, 0.5);
-    /* Black background with 0.5 opacity */
-    color: #0bf31f;
     width: 100%;
-    padding: 20px;
+    padding: 210px;
     font-family: 'Poppins',
     sans-serif;
+    font-family: 'Roboto Condensed',
+    sans-serif;
+}
+.content h1 {
+    color: white;
+    font-size: 60px;
+}
+.content h1 span{
+    color: #0bf31f;
+    font-weight: bold;
+}
+.content h4 {
+    color: white;
+    font-size: 25px;
+}
+.content p {
+    color: greenyellow;
+    font-size: 20;
 }
 .section-service{
     margin-bottom: 50px;
+}
+.tab{
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-top: 50px;
 }

@@ -10,9 +10,16 @@ const Home = () => {
         <div className="banner">
             <img src={banner} alt="" />
             <div className="content">
-                <h1>Enjoy Your Vacation with Travion</h1>
+                <h1>Enjoy Your Vacation With <span>Travion</span></h1>
                 <h4>The world is a book, and those who do not travel read only a page</h4>
-                <p>Discover your next great adventure, become an explorer to get started!</p>
+                <div>
+                    <div class="input-group tab">
+                        <input type="text" class="form-control" placeholder="Search your destination" aria-label="Search your destination" aria-describedby="basic-addon2" />
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-info" type="button">Button</button>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div>
                 <About></About>
